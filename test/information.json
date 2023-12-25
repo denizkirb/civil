@@ -1,0 +1,1928 @@
+{
+    "year": 1,
+    "guilds": {
+        "1187222765107941456": "1188159261432365166"
+    },
+    "style_values": {
+        "name": "Name",
+        "common": "Common Name",
+        "motto": "Motto",
+        "flag": "Flag",
+        "currency": "currency",
+        "treasury": "Money",
+        "land": "Land",
+        "population": "Population",
+        "actions": "Actions",
+        "aluminum": "Aluminum",
+        "ammunition": "Ammunition",
+        "artillery": "Artillery",
+        "bauxite": "Bauxite",
+        "books": "Books",
+        "cars": "Cars",
+        "clothing": "Clothing",
+        "concrete": "Concrete",
+        "copper": "Copper",
+        "crops": "Crops",
+        "electronics": "Electronics",
+        "firearms": "Firearms",
+        "fish": "Fish",
+        "flour": "Flour",
+        "food": "Food",
+        "fuel": "Fuel",
+        "furniture": "Furniture",
+        "glass": "Glass",
+        "gold": "Gold",
+        "household_plastic": "Household Plastic",
+        "houses": "Houses",
+        "iron": "Iron",
+        "lemonade": "Lemonade",
+        "meat": "Meat",
+        "oil": "Oil",
+        "ore": "Ore",
+        "paper": "Paper",
+        "pastries": "Pastries",
+        "petroleum": "Petroleum",
+        "plastic": "Plastic",
+        "seafood": "Seafood",
+        "ships": "Ships",
+        "silver": "Silver",
+        "sneakers": "Sneakers",
+        "steel": "Steel",
+        "stone": "Stone",
+        "timber": "Timber",
+        "tissues": "Tissues",
+        "toys": "Toys",
+        "wood": "Wood",
+        "market": "Market",
+        "main_street": "Main Street",
+        "crop_field": "Crop Field",
+        "fruit_field": "Fruit Field",
+        "pasture": "Pasture",
+        "cattle_shed": "Cattle Shed",
+        "flour_mill": "Flour Mill",
+        "milking_parlor": "Milking Parlor",
+        "slaughterhouse": "Slaughterhouse",
+        "fishing_grounds": "Fishing Grounds",
+        "fish_farm": "Fish Farm",
+        "algae_farm": "Algae Farm",
+        "seaweed_farm": "Seaweed Farm",
+        "tree_plantation": "Tree Plantation",
+        "sapling_field": "Tree Sapling Field",
+        "sawmill": "Sawmill",
+        "biomass_pellet_plant": "Biomass Pellet Plant",
+        "engineered_wood_plant": "Engineered Wood Plant",
+        "pulp_mill": "Pulp Mill",
+        "quarry": "Quarry",
+        "ore_mine": "Ore Mine",
+        "ore_grinding_mill": "Ore Grinding Mill",
+        "glass_manufacturing_plant": "Glass Manufacturing Plant",
+        "rotary_kiln_plant": "Rotary Kiln Plant",
+        "fiberglass_plant": "Fiberglass Plant",
+        "oil_rig": "Oil Rig",
+        "oil_sludge_prolysis_plant": "Oil Sludge Pyrolysis Plant",
+        "petrochemical_plant": "Petrochemical Plant",
+        "waste_oil_refining_plant": "Waste Oil Refining Plant",
+        "naphtha_cracker_plant": "Naphtha Cracker Plant",
+        "seafood_factory": "Seafood Factory",
+        "furniture_factory": "Furniture Factory",
+        "bakery": "Bakery",
+        "steel_plant": "Steel Plant",
+        "household_plastic_factory": "Household Plastic Factory",
+        "toy_factory": "Toy Factory",
+        "printing_press": "Printing Press",
+        "lemonade_factory": "Lemonade Factory",
+        "electronics_factory": "Electronics Factory",
+        "textile_mill": "Textile Mill",
+        "petroleum_refinery": "Petroleum Refinery",
+        "soft_paper_factory": "Soft Paper Factory",
+        "car_factory": "Car Factory",
+        "food_processing_facility": "Food Processing Facility",
+        "sneaker_factory": "Sneaker Factory",
+        "modular_house_factory": "Modular House Factory",
+        "shipyard": "Shipyard",
+        "aluminum_factory": "Aluminum Factory",
+        "ammunition_factory": "Ammunition Factory",
+        "artillery_factory": "Artillery Factory",
+        "concrete_factory": "Concrete Factory",
+        "firearms_factory": "Firearms Factory"
+    },
+    "style_types": {
+        "Basic Stats": [
+            "name",
+            "treasury",
+            "land",
+            "population",
+            "actions"
+        ],
+        "Raw Items": [
+            "wood",
+            "stone",
+            "oil",
+            "ore",
+            "crops",
+            "fish",
+            "bauxite",
+            "meat"
+        ],
+        "Metals": [
+            "aluminum",
+            "copper",
+            "gold",
+            "iron",
+            "silver",
+            "steel"
+        ],
+        "Human-Made Items": [
+            "ammunition",
+            "artillery",
+            "books",
+            "cars",
+            "clothing",
+            "concrete",
+            "electronics",
+            "firearms",
+            "flour",
+            "food",
+            "fuel",
+            "furniture",
+            "glass",
+            "household_plastic",
+            "houses",
+            "lemonade",
+            "paper",
+            "pastries",
+            "petroleum",
+            "plastic",
+            "seafood",
+            "ships",
+            "sneakers",
+            "timber",
+            "tissues",
+            "toys"
+        ],
+        "Fields": [
+            "crop_field",
+            "fruit_field",
+            "pasture",
+            "fishing_grounds",
+            "sapling_field",
+            "quarry",
+            "ore_mine"
+        ],
+        "Farms": [
+            "cattle_shed",
+            "milking_parlor",
+            "slaughterhouse",
+            "fish_farm",
+            "algae_farm",
+            "seaweed_farm",
+            "tree_plantation"
+        ],
+        "Mills": [
+            "flour_mill",
+            "sawmill",
+            "pulp_mill",
+            "ore_grinding_mill",
+            "oil_rig",
+            "textile_mill"
+        ],
+        "Factories": [
+            "seafood_factory",
+            "furniture_factory",
+            "household_plastic_factory",
+            "toy_factory",
+            "lemonade_factory",
+            "electronics_factory",
+            "soft_paper_factory",
+            "car_factory",
+            "sneaker_factory",
+            "modular_house_factory",
+            "aluminum_factory",
+            "ammunition_factory",
+            "artillery_factory",
+            "concrete_factory",
+            "firearms_factory"
+        ],
+        "Plants": [
+            "biomass_pellet_plant",
+            "engineered_wood_plant",
+            "glass_manufacturing_plant",
+            "rotary_kiln_plant",
+            "fiberglass_plant",
+            "oil_sludge_prolysis_plant",
+            "petrochemical_plant",
+            "waste_oil_refining_plant",
+            "naphtha_cracker_plant",
+            "steel_plant"
+        ],
+        "Other Buildings": [
+            "market",
+            "bakery",
+            "petroleum_refinery",
+            "food_processing_facility",
+            "shipyard",
+            "main_street"
+        ]
+    },
+    "building_info": {
+        "crop_field": {
+            "description": "A field can be used to cultivate wheat, potato, corn, or cotton. Crops can be used for human feed, animal feed, textile manufacturing, or processing into other products.",
+            "price": [
+                [
+                    "wood",
+                    8
+                ],
+                [
+                    "treasury",
+                    6000
+                ]
+            ],
+            "consumes": [],
+            "produces": [
+                [
+                    "crops",
+                    6
+                ]
+            ]
+        },
+        "fruit_field": {
+            "description": "A field can be used to cultivate apples, oranges, or pears. Fruits can be used for human and animal feed.",
+            "price": [
+                [
+                    "wood",
+                    4
+                ],
+                [
+                    "treasury",
+                    3200
+                ]
+            ],
+            "consumes": [],
+            "produces": [
+                [
+                    "crops",
+                    3
+                ]
+            ]
+        },
+        "pasture": {
+            "description": "A pasture can be used to graze cows, pigs, sheep, or chicken. Animals turn into meat and leather products, which can be used for human feed and textiles. Pastures need a supply of crops to operate.",
+            "price": [
+                [
+                    "wood",
+                    6
+                ],
+                [
+                    "treasury",
+                    5000
+                ]
+            ],
+            "consumes": [
+                [
+                    "crops",
+                    3
+                ]
+            ],
+            "produces": [
+                [
+                    "meat",
+                    4
+                ]
+            ]
+        },
+        "cattle_shed": {
+            "description": "A cattle shed can be used for raising cattle. Animals turn into meat and leather products, which can be used for human feed and textiles. Cattle sheds need a supply of crops to operate.",
+            "price": [
+                [
+                    "timber",
+                    6
+                ],
+                [
+                    "iron",
+                    3
+                ],
+                [
+                    "treasury",
+                    15000
+                ]
+            ],
+            "consumes": [
+                [
+                    "crops",
+                    5
+                ]
+            ],
+            "produces": [
+                [
+                    "meat",
+                    6
+                ]
+            ]
+        },
+        "flour_mill": {
+            "description": "A flour mill grinds crops into flour. Flour can be processed into pastries. Flour mills need a supply of crops to operate.",
+            "price": [
+                [
+                    "timber",
+                    8
+                ],
+                [
+                    "iron",
+                    2
+                ],
+                [
+                    "treasury",
+                    14000
+                ]
+            ],
+            "consumes": [
+                [
+                    "crops",
+                    2
+                ]
+            ],
+            "produces": [
+                [
+                    "flour",
+                    4
+                ]
+            ]
+        },
+        "milking_parlor": {
+            "description": "A milking parlor milks cows into dairy products, which can be used for human feed. Milking parlors need a supply of crops to operate.",
+            "price": [
+                [
+                    "steel",
+                    3
+                ],
+                [
+                    "concrete",
+                    1
+                ],
+                [
+                    "timber",
+                    2
+                ],
+                [
+                    "treasury",
+                    24000
+                ]
+            ],
+            "consumes": [
+                [
+                    "crops",
+                    6
+                ]
+            ],
+            "produces": [
+                [
+                    "meat",
+                    9
+                ]
+            ]
+        },
+        "slaughterhouse": {
+            "description": "A slaughterhouse slaughters animals into meat, which can be used for human feed. Slaughterhouses need a supply of crops to operate.",
+            "price": [
+                [
+                    "steel",
+                    6
+                ],
+                [
+                    "concrete",
+                    3
+                ],
+                [
+                    "gold",
+                    1
+                ],
+                [
+                    "treasury",
+                    56000
+                ]
+            ],
+            "consumes": [
+                [
+                    "crops",
+                    18
+                ]
+            ],
+            "produces": [
+                [
+                    "meat",
+                    36
+                ]
+            ]
+        },
+        "fishing_grounds": {
+            "description": "Fishing grounds allow people to catch fish. Fish can be used for human feed.",
+            "price": [
+                [
+                    "wood",
+                    3
+                ],
+                [
+                    "iron",
+                    1
+                ],
+                [
+                    "treasury",
+                    2000
+                ]
+            ],
+            "consumes": [],
+            "produces": [
+                [
+                    "fish",
+                    1
+                ]
+            ]
+        },
+        "fish_farm": {
+            "description": "A fish farm gathers fish in high yields. Fish can be used for human feed.",
+            "price": [
+                [
+                    "timber",
+                    2
+                ],
+                [
+                    "iron",
+                    3
+                ],
+                [
+                    "stone",
+                    3
+                ],
+                [
+                    "treasury",
+                    9000
+                ]
+            ],
+            "consumes": [],
+            "produces": [
+                [
+                    "fish",
+                    4
+                ]
+            ]
+        },
+        "algae_farm": {
+            "description": "An algae farm gathers algae in high yields. Fish can be used for human feed.",
+            "price": [
+                [
+                    "timber",
+                    6
+                ],
+                [
+                    "stone",
+                    5
+                ],
+                [
+                    "iron",
+                    4
+                ],
+                [
+                    "treasury",
+                    21000
+                ]
+            ],
+            "consumes": [],
+            "produces": [
+                [
+                    "fish",
+                    12
+                ]
+            ]
+        },
+        "seaweed_farm": {
+            "description": "A seaweed farm gathers seaweed in high yields. Fish can be used for human feed.",
+            "price": [
+                [
+                    "steel",
+                    6
+                ],
+                [
+                    "concrete",
+                    4
+                ],
+                [
+                    "treasury",
+                    60000
+                ]
+            ],
+            "consumes": [],
+            "produces": [
+                [
+                    "fish",
+                    25
+                ]
+            ]
+        },
+        "tree_plantation": {
+            "description": "A tree plantation can be used to cultivate alder, beech, or conifer. Wood can be used for construction, or processed into timber.",
+            "price": [
+                [
+                    "wood",
+                    12
+                ],
+                [
+                    "stone",
+                    4
+                ],
+                [
+                    "iron",
+                    2
+                ],
+                [
+                    "treasury",
+                    12000
+                ]
+            ],
+            "consumes": [],
+            "produces": [
+                [
+                    "wood",
+                    7
+                ]
+            ]
+        },
+        "sapling_field": {
+            "description": "A field can be used to plant tree saplings. Wood can be used for construction, or processed into timber.",
+            "price": [
+                [
+                    "wood",
+                    6
+                ],
+                [
+                    "stone",
+                    2
+                ],
+                [
+                    "treasury",
+                    6000
+                ]
+            ],
+            "consumes": [],
+            "produces": [
+                [
+                    "wood",
+                    3
+                ]
+            ]
+        },
+        "sawmill": {
+            "description": "A sawmill planes wood into lumber. Planed timber can be used for construction. Sawmills need a supply of wood to operate.",
+            "price": [
+                [
+                    "wood",
+                    10
+                ],
+                [
+                    "iron",
+                    1
+                ],
+                [
+                    "treasury",
+                    9000
+                ]
+            ],
+            "consumes": [
+                [
+                    "wood",
+                    4
+                ]
+            ],
+            "produces": [
+                [
+                    "timber",
+                    4
+                ]
+            ]
+        },
+        "biomass_pellet_plant": {
+            "description": "A biomass pellet plant processes wood into biomass pellets. Paper can be used for printing. Biomass pellet plants need a supply of wood to operate.",
+            "price": [
+                [
+                    "timber",
+                    8
+                ],
+                [
+                    "steel",
+                    6
+                ],
+                [
+                    "concrete",
+                    3
+                ],
+                [
+                    "treasury",
+                    60000
+                ]
+            ],
+            "consumes": [
+                [
+                    "wood",
+                    14
+                ]
+            ],
+            "produces": [
+                [
+                    "paper",
+                    20
+                ]
+            ]
+        },
+        "engineered_wood_plant": {
+            "description": "An engineered wood plant engineers wood into lumber. Timber can be used for construction. Engineered wood plants need a supply of wood to operate.",
+            "price": [
+                [
+                    "timber",
+                    6
+                ],
+                [
+                    "steel",
+                    3
+                ],
+                [
+                    "concrete",
+                    2
+                ],
+                [
+                    "treasury",
+                    20000
+                ]
+            ],
+            "consumes": [
+                [
+                    "wood",
+                    8
+                ]
+            ],
+            "produces": [
+                [
+                    "timber",
+                    10
+                ]
+            ]
+        },
+        "pulp_mill": {
+            "description": "A pulp mill pulps wood into paper, which can be used for printing. Pulp mills need a supply of wood to operate.",
+            "price": [
+                [
+                    "timber",
+                    3
+                ],
+                [
+                    "iron",
+                    1
+                ],
+                [
+                    "stone",
+                    3
+                ],
+                [
+                    "treasury",
+                    15000
+                ]
+            ],
+            "consumes": [
+                [
+                    "wood",
+                    5
+                ]
+            ],
+            "produces": [
+                [
+                    "paper",
+                    5
+                ]
+            ]
+        },
+        "quarry": {
+            "description": "A quarry excavates stone from the earth for construction.",
+            "price": [
+                [
+                    "wood",
+                    3
+                ],
+                [
+                    "iron",
+                    1
+                ],
+                [
+                    "treasury",
+                    5000
+                ]
+            ],
+            "consumes": [],
+            "produces": [
+                [
+                    "stone",
+                    5
+                ]
+            ]
+        },
+        "ore_mine": {
+            "description": "An ore mine excavates ore from Earth's ore deposits.",
+            "price": [
+                [
+                    "wood",
+                    4
+                ],
+                [
+                    "treasury",
+                    6000
+                ]
+            ],
+            "consumes": [],
+            "produces": [
+                [
+                    "ore",
+                    8
+                ]
+            ]
+        },
+        "ore_grinding_mill": {
+            "description": "An ore grinding mill grinds ore into usable metals. Ore grinding mills need a supply of ore to operate.",
+            "price": [
+                [
+                    "wood",
+                    5
+                ],
+                [
+                    "iron",
+                    1
+                ],
+                [
+                    "stone",
+                    3
+                ],
+                [
+                    "treasury",
+                    10000
+                ]
+            ],
+            "consumes": [
+                [
+                    "ore",
+                    5
+                ]
+            ],
+            "produces": []
+        },
+        "glass_manufacturing_plant": {
+            "description": "A glass manufacturing plant manufactures ores into sheets of glass. Glass manufacturing plants need a supply of ore to operate.",
+            "price": [
+                [
+                    "timber",
+                    6
+                ],
+                [
+                    "iron",
+                    3
+                ],
+                [
+                    "stone",
+                    5
+                ],
+                [
+                    "treasury",
+                    20000
+                ]
+            ],
+            "consumes": [
+                [
+                    "ore",
+                    3
+                ]
+            ],
+            "produces": [
+                [
+                    "glass",
+                    3
+                ]
+            ]
+        },
+        "rotary_kiln_plant": {
+            "description": "A rotary kiln plant heats ore to form metals. Rotary kiln plants need a supply of ore to operate.",
+            "price": [
+                [
+                    "steel",
+                    5
+                ],
+                [
+                    "concrete",
+                    3
+                ],
+                [
+                    "treasury",
+                    60000
+                ]
+            ],
+            "consumes": [
+                [
+                    "ore",
+                    27
+                ]
+            ],
+            "produces": []
+        },
+        "fiberglass_plant": {
+            "description": "A fiberglass plant produces glass. Fiberglass plants need a supply of ore to operate.",
+            "price": [
+                [
+                    "steel",
+                    6
+                ],
+                [
+                    "concrete",
+                    3
+                ],
+                [
+                    "treasury",
+                    75000
+                ]
+            ],
+            "consumes": [
+                [
+                    "ore",
+                    11
+                ]
+            ],
+            "produces": [
+                [
+                    "glass",
+                    12
+                ]
+            ]
+        },
+        "oil_rig": {
+            "description": "An oil rig extracts oil from the earth.",
+            "price": [
+                [
+                    "wood",
+                    25
+                ],
+                [
+                    "steel",
+                    4
+                ],
+                [
+                    "treasury",
+                    90000
+                ]
+            ],
+            "consumes": [],
+            "produces": [
+                [
+                    "oil",
+                    6
+                ]
+            ]
+        },
+        "oil_sludge_prolysis_plant": {
+            "description": "An oil sludge pyrolysis plant refines oil into petroleum. Oil sludge pyrolysis plants need a supply of oil to operate.",
+            "price": [
+                [
+                    "steel",
+                    10
+                ],
+                [
+                    "concrete",
+                    4
+                ],
+                [
+                    "treasury",
+                    140000
+                ]
+            ],
+            "consumes": [
+                [
+                    "oil",
+                    3
+                ]
+            ],
+            "produces": [
+                [
+                    "petroleum",
+                    3
+                ]
+            ]
+        },
+        "petrochemical_plant": {
+            "description": "A petrochemical plant produces polymers and oilgomers. Plastic can be processed into toys. Petrochemical plants need a supply of oil to operate.",
+            "price": [
+                [
+                    "steel",
+                    10
+                ],
+                [
+                    "concrete",
+                    4
+                ],
+                [
+                    "treasury",
+                    140000
+                ]
+            ],
+            "consumes": [
+                [
+                    "oil",
+                    3
+                ]
+            ],
+            "produces": [
+                [
+                    "plastic",
+                    3
+                ]
+            ]
+        },
+        "waste_oil_refining_plant": {
+            "description": "A waste oil refining plant produces petroleum. Waste oil refining plants need a supply of oil to operate.",
+            "price": [
+                [
+                    "steel",
+                    25
+                ],
+                [
+                    "concrete",
+                    12
+                ],
+                [
+                    "gold",
+                    2
+                ],
+                [
+                    "treasury",
+                    400000
+                ]
+            ],
+            "consumes": [
+                [
+                    "oil",
+                    6
+                ]
+            ],
+            "produces": [
+                [
+                    "petroleum",
+                    7
+                ]
+            ]
+        },
+        "naphtha_cracker_plant": {
+            "description": "A naphtha cracker plant produces plastics. Plastic can be processed into toys and household plastic. Naphtha cracker plants need a supply of oil to operate.",
+            "price": [
+                [
+                    "steel",
+                    25
+                ],
+                [
+                    "concrete",
+                    12
+                ],
+                [
+                    "gold",
+                    2
+                ],
+                [
+                    "treasury",
+                    400000
+                ]
+            ],
+            "consumes": [
+                [
+                    "oil",
+                    6
+                ]
+            ],
+            "produces": [
+                [
+                    "plastic",
+                    7
+                ]
+            ]
+        },
+        "seafood_factory": {
+            "description": "A seafood factory processes fish into seafood products for human feed. Seafood factories need supplies of fish and plastic to operate.",
+            "price": [
+                [
+                    "steel",
+                    25
+                ],
+                [
+                    "concrete",
+                    20
+                ],
+                [
+                    "timber",
+                    10
+                ],
+                [
+                    "treasury",
+                    300000
+                ]
+            ],
+            "consumes": [
+                [
+                    "fish",
+                    30
+                ],
+                [
+                    "plastic",
+                    5
+                ]
+            ],
+            "produces": [
+                [
+                    "seafood",
+                    15
+                ]
+            ]
+        },
+        "furniture_factory": {
+            "description": "A furniture factory manufactures furniture for profit. Furniture factories need supplies of timber and paper to operate.",
+            "price": [
+                [
+                    "steel",
+                    30
+                ],
+                [
+                    "concrete",
+                    20
+                ],
+                [
+                    "timber",
+                    10
+                ],
+                [
+                    "treasury",
+                    410000
+                ]
+            ],
+            "consumes": [
+                [
+                    "timber",
+                    16
+                ],
+                [
+                    "paper",
+                    5
+                ]
+            ],
+            "produces": [
+                [
+                    "item",
+                    10
+                ]
+            ]
+        },
+        "bakery": {
+            "description": "A bakery produces pastries for human feed. Bakeries need supply of meat, crops, and flour to operate.",
+            "price": [
+                [
+                    "steel",
+                    10
+                ],
+                [
+                    "concrete",
+                    10
+                ],
+                [
+                    "timber",
+                    15
+                ],
+                [
+                    "treasury",
+                    380000
+                ]
+            ],
+            "consumes": [
+                [
+                    "meat",
+                    7
+                ],
+                [
+                    "crops",
+                    5
+                ],
+                [
+                    "flour",
+                    15
+                ]
+            ],
+            "produces": [
+                [
+                    "pastries",
+                    12
+                ]
+            ]
+        },
+        "steel_plant": {
+            "description": "A steel plant processes iron into steel. Steel plants need a supply of iron to operate.",
+            "price": [
+                [
+                    "stone",
+                    20
+                ],
+                [
+                    "iron",
+                    15
+                ],
+                [
+                    "treasury",
+                    60000
+                ]
+            ],
+            "consumes": [
+                [
+                    "iron",
+                    15
+                ]
+            ],
+            "produces": [
+                [
+                    "steel",
+                    20
+                ]
+            ]
+        },
+        "household_plastic_factory": {
+            "description": "A household plastic factory produces household plastic products for profit. Household plastic factories need supplies of petroleum and plastic to operate.",
+            "price": [
+                [
+                    "steel",
+                    20
+                ],
+                [
+                    "concrete",
+                    10
+                ],
+                [
+                    "timber",
+                    10
+                ],
+                [
+                    "treasury",
+                    300000
+                ]
+            ],
+            "consumes": [
+                [
+                    "petroleum",
+                    2
+                ],
+                [
+                    "plastic",
+                    15
+                ]
+            ],
+            "produces": [
+                [
+                    "household plastic",
+                    50
+                ]
+            ]
+        },
+        "toy_factory": {
+            "description": "A toy factory produces toys to entertain the children whilst making a profit. Toy factories need supplies of paper, timber, and plastic to operate.",
+            "price": [
+                [
+                    "steel",
+                    18
+                ],
+                [
+                    "concrete",
+                    10
+                ],
+                [
+                    "timber",
+                    10
+                ],
+                [
+                    "treasury",
+                    360000
+                ]
+            ],
+            "consumes": [
+                [
+                    "paper",
+                    5
+                ],
+                [
+                    "timber",
+                    15
+                ],
+                [
+                    "plastic",
+                    25
+                ]
+            ],
+            "produces": [
+                [
+                    "toys",
+                    40
+                ]
+            ]
+        },
+        "printing_press": {
+            "description": "A printing press prints paper into reading material for profit. Printing presses need supplies of paper and plastic to operate.",
+            "price": [
+                [
+                    "steel",
+                    16
+                ],
+                [
+                    "concrete",
+                    6
+                ],
+                [
+                    "timber",
+                    15
+                ],
+                [
+                    "treasury",
+                    160000
+                ]
+            ],
+            "consumes": [
+                [
+                    "paper",
+                    30
+                ],
+                [
+                    "plastic",
+                    5
+                ]
+            ],
+            "produces": [
+                [
+                    "books",
+                    20
+                ]
+            ]
+        },
+        "lemonade_factory": {
+            "description": "A lemonade factory produces refreshing lemonade for human consumption. Lemonade factories need supplies of crops and plastic to operate.",
+            "price": [
+                [
+                    "steel",
+                    18
+                ],
+                [
+                    "concrete",
+                    8
+                ],
+                [
+                    "timber",
+                    10
+                ],
+                [
+                    "treasury",
+                    340000
+                ]
+            ],
+            "consumes": [
+                [
+                    "crops",
+                    30
+                ],
+                [
+                    "plastic",
+                    10
+                ]
+            ],
+            "produces": [
+                [
+                    "lemonade",
+                    30
+                ]
+            ]
+        },
+        "electronics_factory": {
+            "description": "An electronics factory produces electronics for profit. Electronics factories need supplies of plastic, glass, and copper to operate.",
+            "price": [
+                [
+                    "steel",
+                    20
+                ],
+                [
+                    "concrete",
+                    8
+                ],
+                [
+                    "timber",
+                    10
+                ],
+                [
+                    "copper",
+                    4
+                ],
+                [
+                    "treasury",
+                    600000
+                ]
+            ],
+            "consumes": [
+                [
+                    "plastic",
+                    9
+                ],
+                [
+                    "glass",
+                    9
+                ],
+                [
+                    "copper",
+                    15
+                ]
+            ],
+            "produces": [
+                [
+                    "electronics",
+                    10
+                ]
+            ]
+        },
+        "textile_mill": {
+            "description": "A textile mill produces textile clothing for profit. Textiler mills need supplies of meat, crops, and plastic to operate.",
+            "price": [
+                [
+                    "iron",
+                    20
+                ],
+                [
+                    "steel",
+                    4
+                ],
+                [
+                    "treasury",
+                    125000
+                ]
+            ],
+            "consumes": [
+                [
+                    "meat",
+                    6
+                ],
+                [
+                    "crops",
+                    10
+                ],
+                [
+                    "plastic",
+                    8
+                ]
+            ],
+            "produces": [
+                [
+                    "clothing",
+                    35
+                ]
+            ]
+        },
+        "petroleum_refinery": {
+            "description": "A petroleum refinery refines petroleum into fuel. Petroleum refineries need supplies of petroleum, plastic, and iron to operate.",
+            "price": [
+                [
+                    "steel",
+                    20
+                ],
+                [
+                    "concrete",
+                    10
+                ],
+                [
+                    "timber",
+                    12
+                ],
+                [
+                    "treasury",
+                    240000
+                ]
+            ],
+            "consumes": [
+                [
+                    "plastic",
+                    5
+                ],
+                [
+                    "petroleum",
+                    25
+                ],
+                [
+                    "iron",
+                    5
+                ]
+            ],
+            "produces": [
+                [
+                    "fuel",
+                    30
+                ]
+            ]
+        },
+        "soft_paper_factory": {
+            "description": "A soft paper factory softens paper into tissues and toilet paper. Soft paper factories need supplies of crops, paper, petroleum, and plastic to operate.",
+            "price": [
+                [
+                    "steel",
+                    20
+                ],
+                [
+                    "concrete",
+                    10
+                ],
+                [
+                    "timber",
+                    12
+                ],
+                [
+                    "treasury",
+                    460000
+                ]
+            ],
+            "consumes": [
+                [
+                    "crops",
+                    8
+                ],
+                [
+                    "paper",
+                    25
+                ],
+                [
+                    "petroleum",
+                    25
+                ],
+                [
+                    "iron",
+                    5
+                ]
+            ],
+            "produces": [
+                [
+                    "tissues",
+                    65
+                ]
+            ]
+        },
+        "car_factory": {
+            "description": "A car factory manufactures cars and other automobiles for profit. Car factories need supplies of meat, plastic, glass, and iron to operate.",
+            "price": [
+                [
+                    "steel",
+                    40
+                ],
+                [
+                    "concrete",
+                    10
+                ],
+                [
+                    "timber",
+                    10
+                ],
+                [
+                    "treasury",
+                    1200000
+                ]
+            ],
+            "consumes": [
+                [
+                    "meat",
+                    10
+                ],
+                [
+                    "plastic",
+                    15
+                ],
+                [
+                    "petroleum",
+                    25
+                ],
+                [
+                    "iron",
+                    5
+                ]
+            ],
+            "produces": [
+                [
+                    "cars",
+                    12
+                ]
+            ]
+        },
+        "food_processing_facility": {
+            "description": "A food factory manufactures convenience food for human feed. Food factories need supplies of crops, meat, flour, paper, and plastic to operate.",
+            "price": [
+                [
+                    "steel",
+                    15
+                ],
+                [
+                    "concrete",
+                    10
+                ],
+                [
+                    "timber",
+                    10
+                ],
+                [
+                    "treasury",
+                    400000
+                ]
+            ],
+            "consumes": [
+                [
+                    "crops",
+                    16
+                ],
+                [
+                    "meat",
+                    20
+                ],
+                [
+                    "flour",
+                    10
+                ],
+                [
+                    "paper",
+                    4
+                ],
+                [
+                    "plastic",
+                    6
+                ]
+            ],
+            "produces": [
+                [
+                    "food",
+                    20
+                ]
+            ]
+        },
+        "sneaker_factory": {
+            "description": "A sneaker factory manufactures shoes for profit. Sneaker factories need supplies of crops, meat, paper, petroleum, and plastic to operate.",
+            "price": [
+                [
+                    "steel",
+                    15
+                ],
+                [
+                    "concrete",
+                    10
+                ],
+                [
+                    "timber",
+                    6
+                ],
+                [
+                    "treasury",
+                    430000
+                ]
+            ],
+            "consumes": [
+                [
+                    "crops",
+                    12
+                ],
+                [
+                    "meat",
+                    1
+                ],
+                [
+                    "paper",
+                    8
+                ],
+                [
+                    "petroleum",
+                    10
+                ],
+                [
+                    "plastic",
+                    15
+                ]
+            ],
+            "produces": [
+                [
+                    "sneakers",
+                    20
+                ]
+            ]
+        },
+        "modular_house_factory": {
+            "description": "A modular house factory manufactures houses for human residence. Modular house factories need supplies of timber, plastic, glass, copper, stone, and iron to operate.",
+            "price": [
+                [
+                    "steel",
+                    20
+                ],
+                [
+                    "concrete",
+                    20
+                ],
+                [
+                    "timber",
+                    20
+                ],
+                [
+                    "treasury",
+                    1400000
+                ]
+            ],
+            "consumes": [
+                [
+                    "timber",
+                    30
+                ],
+                [
+                    "plastic",
+                    8
+                ],
+                [
+                    "glass",
+                    10
+                ],
+                [
+                    "copper",
+                    4
+                ],
+                [
+                    "stone",
+                    1
+                ],
+                [
+                    "steel",
+                    5
+                ]
+            ],
+            "produces": [
+                [
+                    "houses",
+                    40
+                ]
+            ]
+        },
+        "shipyard": {
+            "description": "A shipyard assembles cruise ships for sea travel. Shipyards need supplies of timber, plastic, glass, and iron to operate.",
+            "price": [
+                [
+                    "steel",
+                    40
+                ],
+                [
+                    "copper",
+                    5
+                ],
+                [
+                    "concrete",
+                    25
+                ],
+                [
+                    "timber",
+                    20
+                ],
+                [
+                    "treasury",
+                    4000000
+                ]
+            ],
+            "consumes": [
+                [
+                    "timber",
+                    100
+                ],
+                [
+                    "plastic",
+                    50
+                ],
+                [
+                    "glass",
+                    30
+                ],
+                [
+                    "steel",
+                    200
+                ]
+            ],
+            "produces": [
+                [
+                    "ships",
+                    3
+                ]
+            ]
+        },
+        "aluminum_factory": {
+            "description": "An aluminium factory processes bauxite into aluminium. Aluminium factories need a supply of bauxite to operate.",
+            "price": [
+                [
+                    "steel",
+                    16
+                ],
+                [
+                    "concrete",
+                    9
+                ],
+                [
+                    "timber",
+                    10
+                ],
+                [
+                    "treasury",
+                    140000
+                ]
+            ],
+            "consumes": [
+                [
+                    "bauxite",
+                    10
+                ]
+            ],
+            "produces": [
+                [
+                    "aluminium",
+                    20
+                ]
+            ]
+        },
+        "ammunition_factory": {
+            "description": "An ammunition factory manufactures ammunition for profit (if personal firearm possession is legal in your country) and for warfare. Ammunition factories need supplies of copper and iron to operate.",
+            "price": [
+                [
+                    "iron",
+                    10
+                ],
+                [
+                    "stone",
+                    10
+                ],
+                [
+                    "timber",
+                    5
+                ],
+                [
+                    "steel",
+                    6
+                ],
+                [
+                    "treasury",
+                    85000
+                ]
+            ],
+            "consumes": [
+                [
+                    "steel",
+                    20
+                ],
+                [
+                    "copper",
+                    1
+                ]
+            ],
+            "produces": [
+                [
+                    "ammunition",
+                    120
+                ]
+            ]
+        },
+        "artillery_factory": {
+            "description": "An artillery factory manufactures artillery for warfare. Artillery factories need a supply of steel to operate.",
+            "price": [
+                [
+                    "steel",
+                    25
+                ],
+                [
+                    "concrete",
+                    10
+                ],
+                [
+                    "treasury",
+                    160000
+                ]
+            ],
+            "consumes": [
+                [
+                    "steel",
+                    20
+                ]
+            ],
+            "produces": [
+                [
+                    "artillery",
+                    10
+                ]
+            ]
+        },
+        "concrete_factory": {
+            "description": "A concrete factory manufactures concrete for infrastructure. Concrete factories need a supply of stone to operate.",
+            "price": [
+                [
+                    "steel",
+                    10
+                ],
+                [
+                    "stone",
+                    15
+                ],
+                [
+                    "treasury",
+                    66000
+                ]
+            ],
+            "consumes": [
+                [
+                    "stone",
+                    10
+                ]
+            ],
+            "produces": [
+                [
+                    "concrete",
+                    12
+                ]
+            ]
+        },
+        "firearms_factory": {
+            "description": "A firearms factory manufactures firearms for profit (if personal firearm possession is legal in your country) and for warfare. Firearms factories need supplies of timber and steel to operate.",
+            "price": [
+                [
+                    "stone",
+                    15
+                ],
+                [
+                    "steel",
+                    6
+                ],
+                [
+                    "timber",
+                    10
+                ],
+                [
+                    "treasury",
+                    120000
+                ]
+            ],
+            "consumes": [
+                [
+                    "timber",
+                    6
+                ],
+                [
+                    "steel",
+                    20
+                ]
+            ],
+            "produces": [
+                [
+                    "firearms",
+                    36
+                ]
+            ]
+        },
+        "market": {
+            "description": "The town market is the hub of economic activity for a small economy.",
+            "price": [
+                [
+                    "wood",
+                    12
+                ],
+                [
+                    "stone",
+                    4
+                ],
+                [
+                    "treasury",
+                    4000
+                ]
+            ],
+            "consumes": [],
+            "produces": []
+        },
+        "main_street": {
+            "description": "The Main Street is the economic center of a small town, where business ventures congregate.",
+            "price": [
+                [
+                    "iron",
+                    2
+                ],
+                [
+                    "stone",
+                    6
+                ],
+                [
+                    "wood",
+                    20
+                ],
+                [
+                    "treasury",
+                    9500
+                ]
+            ],
+            "consumes": [],
+            "produces": []
+        }
+    }
+}
