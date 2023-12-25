@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const DiscordJS = require('discord.js');
 const { ApplicationCommandType, ApplicationCommandOptionType, EmbedBuilder } = require('discord.js');
 const STRING = ApplicationCommandOptionType.String;
@@ -16,10 +17,10 @@ const options = [
 
 const init = async (interaction, client) => {
     try {
-        const data = await fs.promises.readFile('/home/denizkirbiyik/Documents/GitHub/civil/test/database.json', 'utf8');
+        const data = await fs.promises.readFile('database.json', 'utf8');
         const jdata = JSON.parse(data);
 
-        const sdata = await fs.promises.readFile('/home/denizkirbiyik/Documents/GitHub/civil/test/information.json', 'utf8');
+        const sdata = await fs.promises.readFile('information.json', 'utf8');
         const sjdata = JSON.parse(sdata)["style_values"];
 
         let nm = interaction.options.getString('stat');

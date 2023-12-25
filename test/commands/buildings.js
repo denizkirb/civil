@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const DiscordJS = require('discord.js');
 const { ApplicationCommandType, ApplicationCommandOptionType, EmbedBuilder } = require('discord.js');
 const STRING = ApplicationCommandOptionType.String;
@@ -18,7 +19,7 @@ const things = ['', ]
 
 const init = async (interaction, client) => {
     try {
-        const data = await fs.promises.readFile('/home/denizkirbiyik/Documents/GitHub/civil/test/database.json', 'utf8');
+        const data = await fs.promises.readFile('database.json', 'utf8');
         const jdata = JSON.parse(data);
         const jsonData = jdata[interaction.user.id.toString()]
 
@@ -26,7 +27,7 @@ const init = async (interaction, client) => {
             interaction.reply(`You have not founded a nation yet! Found a nation with '/found <nation_name>'`)
         }
 
-        const sdata = await fs.promises.readFile('/home/denizkirbiyik/Documents/GitHub/civil/test/information.json', 'utf8');
+        const sdata = await fs.promises.readFile('information.json', 'utf8');
         const sjdata = JSON.parse(sdata);
 
         let nm = interaction.options.getString('type');

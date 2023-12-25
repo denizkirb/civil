@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const DiscordJS = require('discord.js');
 const { ApplicationCommandType, ApplicationCommandOptionType, EmbedBuilder } = require('discord.js');
 const STRING = ApplicationCommandOptionType.String;
@@ -16,14 +17,14 @@ const options = [
 
 const init = async (interaction, client) => {
     try {
-        const data = await fs.promises.readFile('/home/denizkirbiyik/Documents/GitHub/civil/test/database.json', 'utf8');
+        const data = await fs.promises.readFile('./database.json', 'utf8');
         const jdata = JSON.parse(data);
 
         if (!(Object.keys(jdata).includes(interaction.user.id.toString()))){
             interaction.reply(`You have not founded a nation yet! Found a nation with '/found <nation_name>'`)
         }
 
-        const sdata = await fs.promises.readFile('/home/denizkirbiyik/Documents/GitHub/civil/test/information.json', 'utf8');
+        const sdata = await fs.promises.readFile('./information.json', 'utf8');
         const sjdata = JSON.parse(sdata);
 
         const jsonData = jdata[interaction.user.id.toString()]
@@ -36,7 +37,7 @@ const init = async (interaction, client) => {
             .setColor("#00FF00")
             .setTitle("Here are your basic stats: ")
             .setDescription(p)
-            .setImage(jsonData['flag']);
+            .setThumbnail(jsonData['flag']);
             interaction.reply({embeds:[finalEmbed]})
             return;
         }

@@ -9,12 +9,12 @@ const description = 'Gives info about commands'
 const init = async (interaction, client) => {
     try {
         let commandTmp = []
-        let commandsFiles = fs.readdirSync('/home/denizkirbiyik/Documents/GitHub/civil/test/commands/');
+        let commandsFiles = fs.readdirSync('commands/');
 
         let a = ``;
 
         commandsFiles.forEach((file, i) => {
-            commandTmp[i] = require('/home/denizkirbiyik/Documents/GitHub/civil/test/commands/' + file)
+            commandTmp[i] = require('commands/' + file)
             a += `\n /${file.split('.')[0]}: ${commandTmp[i].description}`
         })
 

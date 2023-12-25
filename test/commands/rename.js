@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const DiscordJS = require('discord.js');
 const { ApplicationCommandType, ApplicationCommandOptionType } = require('discord.js');
 const STRING = ApplicationCommandOptionType.String;
@@ -16,7 +17,7 @@ const options = [
  
 const init = async (interaction, client) => {
     try {
-        const data = await fs.promises.readFile('/home/denizkirbiyik/Documents/GitHub/civil/test/database.json', 'utf8');
+        const data = await fs.promises.readFile('database.json', 'utf8');
         let jdata = JSON.parse(data);
 
         if (!(Object.keys(jdata).includes(interaction.user.id.toString()))){

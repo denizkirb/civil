@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const DiscordJS = require('discord.js');
 const { ApplicationCommandType, ApplicationCommandOptionType, PermissionsBitField } = require('discord.js');
 const NUMBER = ApplicationCommandOptionType.Number;
@@ -8,7 +9,7 @@ const description = 'Set an update channel'
 const init = async (interaction, client) => {
     try {
         if (interaction.member.permissionsIn(interaction.channel).has(PermissionsBitField.Flags.Administrator)){
-            const data = await fs.promises.readFile('/home/denizkirbiyik/Documents/GitHub/civil/test/information.json', 'utf8');
+            const data = await fs.promises.readFile('information.json', 'utf8');
             let jdata = JSON.parse(data);
 
             jdata["guilds"][interaction.guild.id] = interaction.channel.id

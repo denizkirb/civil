@@ -1,4 +1,5 @@
 const fs = require('fs');
+const path = require('path');
 const DiscordJS = require('discord.js');
 const { ApplicationCommandType, ApplicationCommandOptionType } = require('discord.js');
 const STRING = ApplicationCommandOptionType.String;
@@ -15,32 +16,40 @@ const options = [
     {
         name: 'common_name',
         description: 'common name of the nation',
-        required: true,
+        required: false,
         type: STRING,
     },
     {
         name: 'motto',
         description: 'motto of the nation',
-        required: true,
+        required: false,
         type: STRING,
     },
     {
         name: 'flag',
         description: 'url of your nation`s flag',
-        required: true,
+        required: false,
         type: STRING,
     },
     {
         name: 'currency',
         description: 'currency of your nation',
-        required: true,
+        required: false,
         type: STRING,
     }
 ]
  
 const init = async (interaction, client) => {
     try {
-        const data = await fs.promises.readFile('/home/denizkirbiyik/Documents/GitHub/civil/test/database.json', 'utf8');
+        let nam = interaction.options.getString('common_name')
+        if (nam == null){
+            nam = interaction.options.getString('name')
+        }
+        let cur = interaction.options.getString('common_name')
+        if (cur == null){
+            cur = "Money"
+        }
+        const data = await fs.promises.readFile('database.json', 'utf8');
         let jdata = JSON.parse(data);
         if (Object.keys(jdata).includes(interaction.user.id.toString())){
             interaction.reply(`You already founded a nation!`);
@@ -48,10 +57,10 @@ const init = async (interaction, client) => {
         else{
             jdata[interaction.user.id.toString()] = {
                 'name':interaction.options.getString('name'),
-                'common':interaction.options.getString('common_name'),
+                'common':nam,
                 'motto':interaction.options.getString('motto'),
                 'flag':interaction.options.getString('flag'),
-                'currency':interaction.options.getString('currency'),
+                'currency':cur,
                 'treasury':Math.floor(Math.random()*50001+50000),
                 'land':1,
                 'population':Math.floor(Math.random()*500001+500000),

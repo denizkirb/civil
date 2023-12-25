@@ -63,9 +63,9 @@ client.on('interactionCreate', async interaction => {
 })
 
 let update = new CronJob('00 00 */2 * * *', async () => {
-    const data = await fs.promises.readFile('/home/denizkirbiyik/Documents/GitHub/civil/test/database.json', 'utf8');
+    const data = await fs.promises.readFile('database.json', 'utf8');
     let jdata = JSON.parse(data);
-    const sdata = await fs.promises.readFile('/home/denizkirbiyik/Documents/GitHub/civil/test/information.json', 'utf8');
+    const sdata = await fs.promises.readFile('information.json', 'utf8');
     let sjdata = JSON.parse(sdata);
 
     let a = ``;
