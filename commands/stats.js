@@ -24,7 +24,7 @@ const init = async (interaction, client) => {
             interaction.reply(`You have not founded a nation yet! Found a nation with '/found <nation_name>'`)
         }
 
-        const sdata = await fs.promises.readFile('./information.json', 'utf8');
+        const sdata = await fs.promises.readFile('information.json', 'utf8');
         const sjdata = JSON.parse(sdata);
 
         const jsonData = jdata[interaction.user.id.toString()]

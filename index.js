@@ -2,7 +2,8 @@ const { REST } = require('@discordjs/rest')
 const { Client, GatewayIntentBits, Partials, EmbedBuilder } = require('discord.js');
 const { Routes } = require('discord-api-types/v9')
 const { CronJob } = require('cron');
-const client = new Client({ intents: [GatewayIntentBits.Guilds], partials: [Partials.Channel] });
+const client = new Client({ intents: [GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.GuildMessageReactions,], partials: [Partials.Channel] });
+
 
 
 const fs = require('fs')
